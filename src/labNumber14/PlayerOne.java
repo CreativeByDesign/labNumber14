@@ -3,9 +3,12 @@ package labNumber14;
 public class PlayerOne extends Player {
 
 	@Override
-	void generateRoshambo() {
-		// TODO Auto-generated method stub
+	public Roshambo generateRoshambo() {
+		
+		return Roshambo.ROCK;
 		
 	}
+	
+	
 
 }
